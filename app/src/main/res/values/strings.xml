@@ -6,6 +6,7 @@
     <string name="weight">Peso</string>
     <string name="age">Edad</string>
     <string name="calculate">Calcular</string>
+    <string name="default_height">120 cm</string>
     <string name="result">Tu resultado</string>
     <string name="recalculate">Re-Calcular</string>
     <string name="error">Error</string>

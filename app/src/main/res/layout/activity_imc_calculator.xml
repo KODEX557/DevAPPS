@@ -109,7 +109,7 @@
                 android:id="@+id/tvHeight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="120 cm"
+                android:text="@string/default_height"
                 android:textColor="@color/white"
                 android:textSize="38sp"
                 android:textStyle="bold" />
@@ -172,6 +172,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
+                    android:contentDescription="Disminuir el peso"
                     android:src="@drawable/ic_minus"
                     app:backgroundTint="@color/background_fab"
                     app:tint="@color/white" />
@@ -180,6 +181,7 @@
                     android:id="@+id/btnPlusWeight"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:contentDescription="Aumentar el peso"
                     android:src="@drawable/ic_plus"
                     app:backgroundTint="@color/background_fab"
                     app:tint="@color/white" />
@@ -234,6 +236,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
+                    android:contentDescription="Disminuir la edad"
                     android:src="@drawable/ic_minus"
                     app:backgroundTint="@color/background_fab"
                     app:tint="@color/white" />
@@ -242,6 +245,7 @@
                     android:id="@+id/btnPlusAge"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:contentDescription="Augmentar la edad"
                     android:src="@drawable/ic_plus"
                     app:backgroundTint="@color/background_fab"
                     app:tint="@color/white" />
